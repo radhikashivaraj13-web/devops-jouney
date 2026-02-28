@@ -1,0 +1,17 @@
+## commands learned.
+cd ~ -go to home directory.
+cd .. -move one level up.
+pwd -show current directory
+rm -remove file
+rmdir -remove empty directory.
+echo -display home directory path.
+## concepts
+- linux directory structure
+- home directory meaning
+- parent directory vs crrent directory.
+- basic file directory.
+
+  ## practice di=one.
+  - navigated between folders using terminal.
+  - created and deleted files and directories.
+  - practiced moving between directory levels.
