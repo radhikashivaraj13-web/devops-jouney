@@ -1,0 +1,7 @@
+Today i practiced some important linux commands used for managing files and directories.
+  what i learned:
+  -understood file permissions in linux (-rw-r--r--)
+  -learned the meaning of read(r), write(w),execute(x)
+  -practiced changing permissions using chmod
+  -practiced basics file operations like copying,moving,and deleting files.
+  - learned how linux manages access control for users
