@@ -1,0 +1,9 @@
+Today I learned commands used for searching in linux.
+commands practiced
+-grep -search text inside files
+-find -locate files in directories
+-history -view previously executed commands
+practice done
+-created animals.txt
+-searched text using grep 
+-found files using find
