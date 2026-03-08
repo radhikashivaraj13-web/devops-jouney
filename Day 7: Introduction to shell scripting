@@ -1,0 +1,8 @@
+Today I learned how to create and run basic shell script in linux
+#commands and concepts practiced:
+-created .sh script files using nano
+-added multiple Linux Commands inside a script 
+-used chmod +x to make the script executable
+-ran scripts using ./scriptname.sh
+
+This helped me understand how linux tasks can be automated using shell scripting.
