@@ -1,0 +1,13 @@
+Today I learned how to use conditional statements(if) in shell scripting to make decisions in a script.I understood how a s ript can executedifferent commands depending on whether a condition is true or false.
+
+  #Concepts I practiced:
+  -Creating a shell script using nano
+  -using the shebang(#!/bin/bash) to specify the script interpreter.
+  -Declaring and using variables
+  -understanding comparision operators like :
+    1. -gt(greater than)
+    2. -lt(less than)
+    3. -eq(equal to )
+  -printing output using echo
+  -making a script executable using chmod +x
+  running a script using ./scriptname.sh
