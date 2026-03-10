@@ -9,3 +9,4 @@ This repository documents my 6 month journey to becoming a cloud and devops Engi
 -Day 6: searching commands in linux.
 -Day 7: Introduction to shell scripting.
 -Day 8:Shell script variables.
+-Day 9:Conditional Statement in shell scripting.
