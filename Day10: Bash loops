@@ -1,0 +1,11 @@
+Today i learned about loops in bash scripting loops allow us to repeat commands  multiple times automatically,which is useful for automation.
+##concepts practiced:
+-for loop
+-loop variables
+-printing repeated output using echo 
+-running scripts using ./scriptname.sh
+
+##I created scripts to:
+-print numbers using loops
+-print message multiple times
+-understand how loops automate repititive tasks.
