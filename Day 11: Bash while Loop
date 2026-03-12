@@ -1,0 +1,7 @@
+Today I learned how while loops work in bash scripting.A while loop runs commands repeatedly as long as the condition remain true.
+##concepts practiced:
+-structure of while loop
+-conditional checks []
+-comparision operators like -le,-eq
+-incrementing variables using $(( ))
+ I Created scripts to print numbers and repeated messages using while loops.
