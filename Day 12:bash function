@@ -1,0 +1,5 @@
+Today I learned how to create and use functions in bash scripting.functions alow us to group a set of commands together and reuse them whenever needed,which helps in writing cleaner and more organized scripts.
+  #key concepts covered today:
+  -understand the purpose of functions in Bash 
+  -writind reusable functions using the {}
+  -calling functions within a script 
