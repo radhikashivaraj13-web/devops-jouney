@@ -1,0 +1,7 @@
+Today  learned how to use the grep command in Linux,which is used to search for specific words or patterns inside files and command outputs.
+## Key concepts covered:
+-using grep to search for specific text inside a file.
+-performing case-insensitive searches using grep -i
+-DIsplaying line numbers os matching results using grep -n
+-counting how many lines match a pattern using grep -c
+-filtering command output using pipes(|) with grep.
