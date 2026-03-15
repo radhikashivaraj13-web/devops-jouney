@@ -1,0 +1,9 @@
+Today i learned about text processing commands in Linux.
+##Commands practiced:
+-sort : used to arrange lines alphabetically or numerically.
+-sort -r : reverse sorting.
+-sort -n : numeric sorting.
+-uniq : removes duplicate lines from sorted output 
+-uniq -c : counts repeated lines
+-wc : counts lines,word, characters in and characters inin a file.
+ I also practiced combining commands using pipes(|) for efficient text processing.
