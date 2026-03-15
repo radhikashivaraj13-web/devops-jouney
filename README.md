@@ -14,3 +14,4 @@ This repository documents my 6 month journey to becoming a cloud and devops Engi
 -Day 11: Bash While loop
 -Day 12: Bash functions.
 -Day 13: using grep for text searching
+-Day 14: Linux commands
