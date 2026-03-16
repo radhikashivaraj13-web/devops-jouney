@@ -1,0 +1,8 @@
+Today I learned how to archive and compress files in linux using tar and gzip.These commands are commonly used for creating backups and transferring multiple files efficiently.
+##commands practiced:
+-tar -cvf : create an archive file
+-tar -xvf : extract files from an archive
+-gzip : Compress a file
+-gunzip : decompress a file
+-tar -czvf : create and compress an archive
+-tar -xzvf :extract a compressed archive
