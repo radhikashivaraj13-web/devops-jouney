@@ -1,0 +1,8 @@
+Today I learned how to monitor and manage running process in linux
+  #commands practiced:
+  -ps: view current terminal processes
+  -ps aux:view all running process
+  -ps aux | grep <name>: search for a specific process
+  -top: monitor system process in real time
+  -kill PID: terminate a process
+  -Kill -9 PID: forcefully terminate a process.
