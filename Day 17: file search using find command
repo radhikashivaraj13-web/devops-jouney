@@ -1,0 +1,9 @@
+Today I learned how to search for files and directories in linux using the find command.
+  ##commands practiced
+  -find . -name "filename" : search file by name
+  -find . -iname "filename" : case-insensitive search
+  -find . type  f : find only files
+  -find . type d : find only directories
+  -find . -name "*txt" : search files by extension
+  -find . -delete : delete all fikes found
+  -find . -exec <command> {} \; : execute command on found files
