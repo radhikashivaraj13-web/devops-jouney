@@ -1,0 +1,5 @@
+Today I learned how Linux handles input and output and how to redirect command output into files.
+#commands learned
+> : redirect output to a file(overwrites existing content)
+>> : append output to a file(doe not overwrite)
+< : take input from a file
