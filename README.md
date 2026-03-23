@@ -19,3 +19,4 @@ This repository documents my 6 month journey to becoming a cloud and devops Engi
 -Day 16: Process Management in Linux
 -Day 17: File search using find command
 -Day 18: Input and Output redirection in Linux
+-Day 19: disk usage in Linux(df and du)
