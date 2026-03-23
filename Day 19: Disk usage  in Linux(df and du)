@@ -1,0 +1,6 @@
+Today i learned how to check disk space and analyze storage usage in Linux.
+##Commands practiced:
+-df -h:shows total disk space ,used and availabke storage.
+-du -h:shows size of files and directories.
+-du -sh:shows total size of current directory
+-du -sh *:shows size of each file/folder in a directory.
