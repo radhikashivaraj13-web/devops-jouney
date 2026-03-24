@@ -1,0 +1,10 @@
+Today I learned how to check network connectivity and interact with web servers using commands.
+##Commands practiced:
+-ping : check if server is reachable
+-curl : fetch data from URL
+-wget : download files from the internet.
+#Example Practiced
+ping google.com
+curl https://example.com
+wget https://example.com
+This helped me understand how to test connections,retrive data and download resources using Linux.
