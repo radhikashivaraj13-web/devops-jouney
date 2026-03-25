@@ -1,0 +1,8 @@
+Today I learned how to manage software in linux using the apt package manager.
+##commands practiced:
+-apt update:refresh available package list
+-apt upgrade:update installed packages
+-apt install:install new software
+-apt remove:uninstall software
+-apt search: search foe packages
+-apt show:view package details.
