@@ -22,3 +22,4 @@ This repository documents my 6 month journey to becoming a cloud and devops Engi
 -Day 19: disk usage in Linux(df and du)
 -Day 20: Networking basics in Linux
 -Day 21: Package Management in linux
+-Day 22: Environment variable and PATH in Linux
