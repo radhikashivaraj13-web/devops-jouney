@@ -1,0 +1,6 @@
+Today I learned about environment variables and how linux uses them to store system information.
+##commands practiced:
+-printenv: view all environment variables.
+-echo $VAR: access variable values
+-export: create environment variables
+-PATH : defines directories where commands searched
