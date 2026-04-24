@@ -1,0 +1,25 @@
+# Day 24: Log Analysis with Grep and Awk
+
+Today I simulated a real-world DevOps scenario: analyzing server access logs to identify security threats.
+
+##  The Scenario
+I created a mock `access.log` file containing system timestamps, status levels (INFO/ERROR), and IP addresses. My goal was to filter out successful logins and extract the IP addresses of failed attempts.
+
+##  Commands Mastered
+1. **Filtering Errors:**
+   `grep "ERROR" access.log`
+   *Used to isolate only the rows where a login failed.*
+
+2. **Data Extraction:**
+   `grep "ERROR" access.log | awk '{print $9}'`
+   *Piped the filtered results into `awk` to extract the 9th column (the IP address).*
+
+3. **Report Generation:**
+   `grep "ERROR" access.log | awk '{print $1, $2, $9}' > security_report.txt`
+   *Created a clean report showing only the Date, Time, and offending IP.*
+
+##  Troubleshooting & Deep Dive
+While practicing, I encountered a syntax error with `awk`. I learned that `awk` requires strict usage of single quotes (`'`) to wrap its commands. Fixing this small detail allowed the entire data pipeline to function.
+
+##  AWS Connection
+At Amazon, processing logs is vital for "Operational Excellence." Being able to parse raw text data into actionable security reports is a core skill for any Cloud Engineer.
