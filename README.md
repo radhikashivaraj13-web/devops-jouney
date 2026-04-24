@@ -24,7 +24,7 @@ This repository documents my 6 month journey to becoming a cloud and devops Engi
 -Day 21: Package Management in linux
 -Day 22: Environment variable and PATH in Linux
 -Day 23:system recovery and cron automation.
-
+-Day 24:log analysis using grep and awk
 
 # System Health Monitor
 
