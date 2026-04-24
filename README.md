@@ -10,7 +10,7 @@ This repository documents my 6 month journey to becoming a cloud and devops Engi
 -Day 7: Introduction to shell scripting.
 -Day 8:Shell script variables.
 -Day 9:Conditional Statement in shell scripting
-.-Day 10: Bash loops.
+-Day 10: Bash loops.
 -Day 11: Bash While loop
 -Day 12: Bash functions.
 -Day 13: using grep for text searching
@@ -23,6 +23,7 @@ This repository documents my 6 month journey to becoming a cloud and devops Engi
 -Day 20: Networking basics in Linux
 -Day 21: Package Management in linux
 -Day 22: Environment variable and PATH in Linux
+-Day 23:system recovery and cron automation.
 
 
 # System Health Monitor
