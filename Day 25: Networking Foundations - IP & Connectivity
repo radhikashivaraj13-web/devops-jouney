@@ -1,0 +1,14 @@
+Today I started my transition from Linux System Admin to Cloud Networking.
+
+##  Learning: The Dual Identity of a Server
+- **Private IP:** Used for internal communication. I identified mine using `ip addr`.
+- **Public IP:** How the internet identifies my gateway. I retrieved this using `curl ifconfig.me`.
+
+##  Connectivity Testing
+I used the `ping` utility to test latency to external servers.
+- **Action:** `ping -c 4 google.com`
+- **Result:** Average latency was [35]ms.
+- **Significance:** In DevOps, ping is the first step in troubleshooting "Site Down" incidents.
+
+##  Mentor Insight
+Understanding the difference between Private and Public IPs is the foundation for setting up AWS VPCs (Virtual Private Clouds) and Security Groups.
