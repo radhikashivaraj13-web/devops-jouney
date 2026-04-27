@@ -1,0 +1,15 @@
+##Core Concepts
+​-In networking, if an IP Address represents a physical host, a Port represents a specific logical entry point for a service.
+​-Total Port Range: 0 to 65535.
+​-Privileged/Well-Known Ports (0–1023): Reserved for core system services (requires root/sudo access to open).
+​-Registered/User Ports (1024–49151): Used for specific applications (like databases or web development).
+​
+# The "Golden Four" Standard Ports
+​As an industry standard, the following ports are essential for infrastructure management:
+Port   Protocol            Purpose Description
+22       SSH          Secure Shell Remote server administration and command-line access.
+80       HTTP         Hypertext Transfer Unencrypted web traffic (Standard).
+443      HTTPS        HTTP Secure Encrypted web traffic using SSL/TLS certificates.
+3306     MySQL        Database Communication
+##command learned
+ss -tuln
