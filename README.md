@@ -26,7 +26,7 @@ This repository documents my 6 month journey to becoming a cloud and devops Engi
 -Day 23:system recovery and cron automation.
 -Day 24:log analysis using grep and awk
 -Day 25: Networking foundations
-
+-Day 26: Networking ports
 # System Health Monitor
 
 A simple Linux shell script project that checks:
