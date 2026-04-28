@@ -1,0 +1,21 @@
+##I. Understanding Protocols
+​A Protocol is a strict set of rules governing how data is exchanged. Even if a port is open, a connection will fail if the two devices do not speak the same protocol.
+​##II. The TCP Three-Way Handshake
+​Before any data is sent, TCP establishes a connection via a 3-step synchronization:
+​SYN: Client asks to connect.
+​SYN-ACK: Server acknowledges and asks to connect back.
+​ACK: Connection established.
+​##III. Hands-on Lab: Manual Handshakes
+​I used telnet to manually initiate a TCP handshake with my local machine.
+​Command: telnet localhost 8080
+​Result: Connected to localhost. This confirms that the Python service on Port 8080 was successfully "Listening" and accepted the handshake.
+​##IV. Troubleshooting: Port Conflicts & Escaping Sessions
+​During the lab, I encountered a common networking error: OSError: [Errno 98] Address already in use.
+​Lessons Learned:
+​Port Exclusivity: Only one process can bind to a port at a time. If a previous session is still running (even in the background), a new service cannot start on that same port.
+​The "Escape" Sequence: When trapped inside a telnet session, the standard exit command doesn't work. The correct escape sequence is Ctrl + ] followed by typing quit.
+​Process Cleanup: Used pkill python3 to clear background processes and free up the port for a fresh session.
+​Quick Checklist for Radhika:
+​Completed: Level 2 (Neighborhood) and Level 3 (The Conversation).
+​Skills acquired: Manual handshaking, port conflict resolution, and session management.
+​Next: Level 4 - The Client-Server Model (The final piece of the "from scratch" basics).
