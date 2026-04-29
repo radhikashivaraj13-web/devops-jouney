@@ -27,7 +27,9 @@ This repository documents my 6 month journey to becoming a cloud and devops Engi
 -Day 24:log analysis using grep and awk
 -Day 25: Networking foundations
 -Day 26: Networking ports
--Day 27: Networking protocols and Session Management
+-Day 27: Networking protocols and Session Management.
+-Day 28: The client-Server Model
+
 # System Health Monitor
 
 A simple Linux shell script project that checks:
