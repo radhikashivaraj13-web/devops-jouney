@@ -1,0 +1,21 @@
+​##I. Architectural Overview
+​The Client-Server model is the backbone of web infrastructure. It defines a relationship where:
+​The Client (Requesters): Initiates communication (e.g., curl, Web Browsers).
+​The Server (Providers): Listens on a socket and responds to incoming requests (e.g., Python http.server, Apache, Nginx).
+​
+##II. The Request-Response Lifecycle
+​I performed a local simulation of a production web environment and analyzed the verbose output of a successful transaction.
+​Key Observations from Lab:
+​Transport Fallback: The client attempted an IPv6 connection (::1) which was refused, followed by a successful fallback to IPv4 (127.0.0.1) on Port 9000.
+​HTTP Headers (The Metadata):
+​Request (>): GET / HTTP/1.1 — The client requested the root directory using HTTP version 1.1.
+​Response (<): HTTP/1.0 200 OK — The server confirmed success (Status 200) and identified itself as SimpleHTTP/0.6 Python/3.12.3.
+​Data Payload: The server served a directory listing in HTML format, effectively acting as a file server for my local environment.
+​
+##III. Command Lab Summary
+​Server Command: python3 -m http.server 9000
+​Client Command: curl -v http://localhost:9000
+​Outcome: Successfully mapped the transition from a raw TCP connection to a high-level HTTP protocol exchange.
+​
+## Connecting to DevOps
+​In a Cloud environment, if a service is "down," a DevOps Engineer uses these exact steps to check if the issue is at the Network Layer (Connection Refused) or the Application Layer (HTTP 404 or 500 errors).
