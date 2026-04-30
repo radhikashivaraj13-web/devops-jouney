@@ -28,7 +28,8 @@ This repository documents my 6 month journey to becoming a cloud and devops Engi
 -Day 25: Networking foundations
 -Day 26: Networking ports
 -Day 27: Networking protocols and Session Management.
--Day 28: The client-Server Model
+-Day 28: The client-Server Model.
+-Day 29: Understanding the OSI model
 
 # System Health Monitor
 
