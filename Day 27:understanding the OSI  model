@@ -1,0 +1,10 @@
+I. The 7-Layer Framework
+The OSI (Open Systems Interconnection) model is a conceptual framework used to understand how data moves across a network.
+Troubleshooting Methodology
+In DevOps, we troubleshoot "Bottom-Up."
+​Physical/Link: Is the cable plugged in?
+​Network: Can I ping the IP?
+​Transport: Is the Port listening (ss -tuln)?
+​Application: Is the service returning a 200 OK (curl)?
+​III. Lab: Path Analysis
+Used traceroute to visualize the Layer 3 path of packets across the public internet. Verified that each "hop" represents a gateway router processing the Network Layer headers.
