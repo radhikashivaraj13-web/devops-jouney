@@ -1,4 +1,4 @@
- ## devops-jouney
+ ## devops-journey
 This repository documents my 6 month journey to becoming a cloud and devops Engineer
 .## Progress
 -Day 1: Linux Basics.
@@ -30,7 +30,8 @@ This repository documents my 6 month journey to becoming a cloud and devops Engi
 -Day 27: Networking protocols and Session Management.
 -Day 28: The client-Server Model.
 -Day 29: Understanding the OSI model.
--Day 30: Completion of 1 month
+-Day 30: Completion of 1 month.
+-Day 31: what is a network?
 
 # System Health Monitor
 
