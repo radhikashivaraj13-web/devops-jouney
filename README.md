@@ -32,6 +32,7 @@ This repository documents my 6 month journey to becoming a cloud and devops Engi
 -Day 29: Understanding the OSI model.
 -Day 30: Completion of 1 month.
 -Day 31: what is a network?
+-Day 32: IP Address
 
 # System Health Monitor
 
