@@ -1,0 +1,8 @@
+!.What is an IP Address?
+ An IP address is a unique digital ID that lets devices find and talk to each other over a network.
+2.Whta is difference between IPv4 and IPv6?
+ IPv4 and IPv6 uses 32-bit addresses(4.3 billion)in dot-decimal notation,while IPv6 uses 128-bit addresses (340 undecillion) in hexadecimal ,offering masive capacity and built-in- security.
+3.what is public vs private IP address?
+ Public IP addresses are globally unique identifiers used to communicate over the internet ,assigned by ISPs.Private Ip addresses are used within local networks (homes/offices),asssigned by routers to identify devices(PCs,phones).
+4.What is Localhost(127.0.0.1)?
+ 127.0.0.1 is the default loopback IPv4 address known as localhost,which allows your computer to connect itself,by passing physical network interfaces.
