@@ -1,0 +1,10 @@
+1.What is a Subnet?
+  A subnet, or subnetwork ,is a logical subdivision of an IP network,dividing a large network into smaller,managable,and more efficient parts.
+2. What is a Subnet Mask?
+ A subnet mask is a 32-bit number used in IPv4 networking that defines which part of an IP address refers to the network(network ID) and which part refers to the individual device(host ID).
+3.what is a CIDR notation?(e.g.,192.168.1.0/24)
+  CIDR is a compact way to represent an IP address and its associated network mask,writtenn as a.b.c.d/n. The suffix /n indicated the number of bits (1s) in the subnet mask.
+4.Why do we need Subnetting?
+  Subnetting is required to break large,inefficient networks into smaller,managable ,and secure subnetworks(subnets).it improves network performance by reducing broadcast traffic congestion,
+enhances security through isolation,and conserves limited IPv4 address spaces by allocating resources more efficiently.
+
