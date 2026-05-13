@@ -1,0 +1,11 @@
+1.What is the OSI model and why does it exist?
+  The open system Interconnection (OSI) medel is a conceptual framework that standardizes network communication into seven distinct layers,ranging from Physical cabling to user-facing applications.
+2.Layer 1- Physical.What happens here?
+   Layer 1,the physical Layer is the OSI model,is the foundational layer responsible for the actual ,physical transmission of raw data-in the form of binary bits(0s and1s)-across the physical medium.
+   It converts digital data from the higher layers into signls that can travel over cabels or through the air.
+3.Layer 2- Data Link .What happens here?
+   The Data Link Layer of the OSI model is responsible for node-to-node data transfer-ensuring that data data is reliably moved between two directly connected nodes(e.g.,your computer and a switch).
+   It takes the data packets from network layer(Layer 3) and structures them into framesfor transmission over the physical medium.
+4.Layer 3-Network Layer .What happens here?
+  Network layer is responsible for logical addressing,routing ,and packet forwarding to ensure data travels from source to destination across different,interconnected networks.
+  while layer 2 deals with local,node-to-node delivery using MAC addresses.layer 3 handles end - to -end communication across wide -area networks (WANs) or multiple Subnets using IP addresses.
