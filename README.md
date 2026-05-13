@@ -34,6 +34,7 @@ This repository documents my 6 month journey to becoming a cloud and devops Engi
 -Day 31: what is a network?
 -Day 32: IP Address
 -Day 33: Subnetting
+-Day 34: OSI model Layers 1-3
 
 # System Health Monitor
 
