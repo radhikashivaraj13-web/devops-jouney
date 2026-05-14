@@ -1,0 +1,11 @@
+1.Layer 4 — Transport. What happens here? TCP vs UDP?
+  Transport Layer of the OSI model, is responsible for end-to-end communication, managing data flow, and ensuring data reaches the correct application on a device.
+  TCP is used for reliable transport while UDP is used for faster transport.
+2.Layer 5 — Session. What happens here?
+  The Session Layer of the OSI model acts as the "dialogue controller" in network communications.
+  Its primary role is to establish, manage, and terminate connections (sessions) between applications on different devices.
+3.Layer 6 — Presentation. What happens here?
+  The Presentation Layer  of the OSI model acts as the "translator" for the network, ensuring that data sent from the application layer of one system is readable by the application layer of another.
+4.Layer 7 — Application. What happens here?
+  The Application Layer, is the top layer of the OSI model and acts as the direct interface between end-user software applications (like web browsers or email clients) and the underlying network.
+  It is where user data originates, such as HTTP requests, and where network data is finally presented to the user.
