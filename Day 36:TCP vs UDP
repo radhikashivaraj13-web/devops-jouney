@@ -1,0 +1,13 @@
+1.what is the three way TCP handshake?
+ A TCP 3-way handshake is a foundational networking process used to establish a reliable,connection oriented session between a client and a server.
+ It utilizes three distinct messages(SYN,SYN-ACK and ACK) to ensure both devices are synchronized and ready to exchange data securly.
+2.When would you use TCP over UDP?
+  TCP is used over UDP whenever reliability ,dataintegrity,correct sequencing are more important than raw speed.Because TCP establishes a connection 
+  and guarantees that every single packet arrives safely and in the correct order,it is the backbone of applications where losing even a tiny bit of
+  data could corrupt the entire file or message.
+3.When would you use UDP over TCP?
+  UDP is used over TCP when speed,low latency and real -time delivery are more important than perfect accuracy.Because UDP is a "fire-and-forget"
+  protocol,it does not waste time establishing a connection ,checking if data arrived or re-sending lost packets.
+4.Give one real-world example of TCP and UDP?
+  TCP-Online banking and financial transactions,Git commits and GitHub uploads.
+  UDp-Voice over IP calls(zoom,whatsapp),Online multiplayer gaming. 
