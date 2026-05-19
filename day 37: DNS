@@ -1,0 +1,31 @@
+1.What is DNS and why do we need it?
+​DNS (Domain Name System) is essentially the phonebook of the internet.
+​Computers don't communicate using human-friendly names like google.com; they use numerical labels called IP addresses (like 142.250.190.46)
+to find and talk to each other over a network. Because memorizing strings of numbers for every website you want to visit is completely
+impractical for humans, we need DNS. It acts as a translation layer that converts easy-to-remember domain names into machine-readable IP addresses.
+2.What happens step by step when you type google.com in your browser?  
+-Typing a website into your browser triggers a complex sequence of networking and rendering events in milliseconds.Here is what happens step by step:
+-URL Parsing: The browser parses the text to identify the protocol (HTTPS) and the domain name (google.com).
+-Cache Lookup: The browser checks its local memory, the operating system, the router, and your ISP for a recently cached IP address for google.com.
+-DNS Lookup: If not found, a Domain Name System (DNS) request queries root and top-level domain servers to translate the human-readable domain into a numerical IP address.
+-TCP Handshake: The browser initiates a connection with Google's server via a Transmission Control Protocol (TCP) "three-way handshake" to establish reliable communication.
+-TLS/SSL Handshake: To establish a secure HTTPS connection, the browser and server exchange security certificates and cryptographic keys.
+-HTTP Request: The browser sends a secure GET request to the server, asking for the google.com homepage.
+-Server Processing: Google's web servers process the request, pulling necessary data and rendering instructions.
+-Response: The server returns the requested data (HTML, CSS, and JavaScript) back to your browser in small, sequential data packets.
+-Rendering: Your browser parses the HTML to build the Document Object Model (DOM), processes the CSSOM, executes the JavaScript, and paints the visible webpage onto your screen.  
+3.DNS Resolver vs. Authoritative Nameserver
+​These two server types sit on opposite sides of the DNS query workflow:
+​-DNS Resolver (The Client's Agent): This server handles the searching phase. It receives the initial request from your computer, hunts down the answers across the internet hierarchy 
+on your behalf, and temporarily caches the results to speed up future requests. It does not own any website data; it just finds it.
+​-Authoritative Nameserver (The Source of Truth): This server holds the actual answers. It is configured by the domain owner (or registrar) and contains the definitive master record
+matching a domain name to its IP address. It doesn't go looking for clues; it simply reads its database and replies with the record it owns.
+4.What is the difference between a record and a CNAME record?
+A Record (Address Record) → connects a domain name directly to an IP address.
+Example:
+example.com → 192.168.1.1
+Meaning: "Go directly to this server."
+CNAME Record (Canonical Name Record) → connects a domain name to another domain name, not to an IP address.
+Example:
+blog.example.com → example.com
+Meaning: "This name is another name (alias) for that website."                
