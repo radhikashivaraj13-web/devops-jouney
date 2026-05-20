@@ -1,0 +1,12 @@
+1.What is HTTP and how does it work?
+  HTTP(Hypertext Transfer Protocol)is the foundational set of rules that governs how data (text,image,videos) is exchanged on the world wide web.
+It acts as a standardized "language" allowing web browsers (clients)and servers to communicate with each other so websites can load properly.
+2.What makes HTTPS different from HTTP?
+HTTP:sends messages which are plaintext.anyone intercepting the connection potentially read the information.
+HTTPS: encrypts the data using SSL/TLS,making communication secure.
+3.What is SSl/TLS and what does it do?
+SSL/TLS are security protocol that provides encryption,and data integrity ,authentication for secure communication.
+4.What is an SSL certificate and who issues it?
+An SSL certificate is a digital certificate that verifies a website's identity and enables encrypted communication using SSL/TLS.
+SSL is issued by a Certificate Authority(CA),which is trusted organization that validates the website before issuing the certificate.
+ 
