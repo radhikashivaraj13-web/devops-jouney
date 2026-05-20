@@ -38,6 +38,7 @@ This repository documents my 6 month journey to becoming a cloud and devops Engi
 -Day 35: OSI model Layers 4-7
 -Day 36: TCP vs UDP
 -Day 37: DNS
+-Day 38: HTTP vs HTTPS
 
 # System Health Monitor
 
