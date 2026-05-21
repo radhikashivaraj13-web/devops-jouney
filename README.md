@@ -39,6 +39,7 @@ This repository documents my 6 month journey to becoming a cloud and devops Engi
 -Day 36: TCP vs UDP
 -Day 37: DNS
 -Day 38: HTTP vs HTTPS
+-Day 39: Ports
 
 # System Health Monitor
 
