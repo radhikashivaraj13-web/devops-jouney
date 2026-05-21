@@ -1,0 +1,23 @@
+1.What is a port and why do we need them?
+A port is a logical communication endpoint used by a computer to identify a specific service or application on a network.
+We need ports because a computer can run many services at the same time(web browsing,email,file,transfer etc.) and ports help send data to the correct application.
+2.What is the difference well known ports,registered ports and dynamic ports?
+well known ports(0-1023) are reserved for common services and protocols.
+resgistered [orts(1024-49151) are used by specific applications and organizations.
+dynamic ports(49152-65535) are temporarily used or assigned for client-side communication.
+3.Name 5 important port numbers and what they are used for?
+Port 80-HTTP-used for web pages(non secure browsing).
+Port 443-HTTPS-used for secure web browsing.
+Port 21-FTP-used for file transfer.
+Port 25-SMTP-used for sending emails.
+Port 53-DNS-used for domain name resolution.
+4.What is the difference between port 80 and pport 443?
+Port 80:
+-Used for HTTP
+-IT is less secure
+-Used for normal web communication.
+Port 443:
+-Used for HTTPs
+-data is encrypted using SSl/TLS.
+-More secure
+-used for secure web communication.
